@@ -41,6 +41,8 @@ DATABASES = {
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'j$a1^782&toa66lpj05fnal%3#b8&od#g1n-a&io6fzg8#epgs'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
